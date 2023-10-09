@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #87cefa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+
+#container {
+    width: 900px;
+    border: 10px solid white;
+    margin: 0px auto;
+}
+
+#hero {
+    display: flex;
+    width: 900px;
+    height: 400px;
+    margin: 0px auto 0px;
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-title {
+    color: #ffffff;
+    background-color: #457B9d;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#hero-content {
+    width: 550px;
+    color: #ffffff;
+    background-color: #1d3557;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+#activities {
+    width: 900px;
+    margin: 0px auto;
+    padding: 10px 0px;
+    background-color: #f1FAEE;
+}
+
+#activities-header {
+    margin: 0px auto;
+}
+
+#activities-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px 10px;
+    margin-top: 30px;
+}
+
+.activities-img {
+    border-radius: 50%;
+}
+
+.activities-title {
+    width: 180px;
+    margin: 20px auto 0px;
+}
+
+.activities-sub-content {
+    width: 180px;
+    margin: 20px auto 0px;
+}
+
+#guide {
+    width: 900px;
+    margin: 0px auto;
+    padding: 50px 0px 50px;
+    background-color: #f5f5f5;
+}
+
+#card {
+    width: 400px;
+    margin: 0px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #2b2839;
+    background-color: #a8dadc;
+    border-bottom: 4px solid #457b9d;
+}
+
+#card-content {
+    width: 180px;
+}
+
+#guide-img {
+    width: 180px;
+}
+
+.italic {
+    font-style: italic;
+}
